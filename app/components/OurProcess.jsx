@@ -336,7 +336,7 @@ const OurProcess = () => {
             <FaClock className="w-3 h-3 sm:w-4 sm:h-4 text-[#67D2FF]" />
             <span className="text-[10px] sm:text-xs text-[#8A92A6]">Average delivery</span>
             <span className="w-px h-3 bg-[#67D2FF]/30" />
-            <span className="text-[10px] sm:text-xs font-bold text-[#67D2FF]">2 – 6 Weeks</span>
+            <span className="text-[10px] sm:text-xs font-bold text-[#67D2FF]">1 – 3 Weeks</span>
             <span className="w-px h-3 bg-[#67D2FF]/30" />
             <span className="text-[10px] sm:text-xs text-[#8A92A6]">Transparent pricing</span>
           </div>

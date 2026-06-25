@@ -176,10 +176,12 @@ const Navbar = () => {
 
               <div className="px-5 pt-5 pb-6 space-y-4">
                 <div className="flex items-center justify-between mb-1">
-                  <div className="relative w-28 h-9 sm:w-36 sm:h-11">
+                  <div className="relative w-28 h-9 sm:w-64 sm:h-11">
                     <Image
                       src={logo}
                       alt="Wasi Dev Solutions"
+                      width={500}
+      height={500}
                       fill
                       className="object-contain object-left"
                     />

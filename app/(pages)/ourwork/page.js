@@ -172,9 +172,9 @@ const WorkShow = () => {
     : projects.filter(project => project.category === filter);
 
   const stats = [
-    { number: "50+", label: "Projects Delivered", icon: FaCode },
+    { number: "20+", label: "Projects Delivered", icon: FaCode },
     { number: "98%", label: "Client Satisfaction", icon: FaHeart },
-    { number: "30+", label: "Happy Clients", icon: FaUsers },
+    { number: "20+", label: "Happy Clients", icon: FaUsers },
     { number: "24/7", label: "Support", icon: FaClock },
   ];
 

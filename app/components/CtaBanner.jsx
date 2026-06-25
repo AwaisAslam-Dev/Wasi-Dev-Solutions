@@ -27,7 +27,7 @@ const CtaBanner = () => {
   }, []);
 
   const stats = [
-    { val: '200+', label: 'Projects Delivered', icon: FaTrophy },
+    { val: '20+', label: 'Projects Delivered', icon: FaTrophy },
     { val: '98%', label: 'Client Satisfaction', icon: FaStar },
     { val: '24/7', label: 'Support Available', icon: FaHeadset },
     { val: '5★', label: 'Average Rating', icon: FaStar },

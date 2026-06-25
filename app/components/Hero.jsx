@@ -88,7 +88,7 @@ const Hero = () => {
             {/* Stats */}
             <div className="flex flex-wrap gap-6 sm:gap-10 justify-center lg:justify-start pb-14 sm:pb-0">
               {[
-                { value: '200+', label: 'Projects Completed', icon: <MdOutlineEmojiEvents className="text-[#67D2FF]" /> },
+                { value: '20+', label: 'Projects Completed', icon: <MdOutlineEmojiEvents className="text-[#67D2FF]" /> },
                 { value: '98%', label: 'Client Satisfaction', icon: <FaStar className="text-[#A7D85E]" /> },
               ].map((stat, i) => (
                 <div key={i} className="text-center lg:text-left group cursor-pointer">
