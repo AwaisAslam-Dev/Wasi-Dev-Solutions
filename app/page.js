@@ -1,10 +1,10 @@
-import Image from "next/image";
-import Hero from "./components/Hero";
-import MarqueeTicker from "./components/MarqueeTicker";
-import OurServices from "./components/OurServices";
-import Industries from "./components/Industries";
-import OurProcess from "./components/OurProcess";
-import CtaBanner from "./components/CtaBanner";
+import dynamic from "next/dynamic";
+const Hero = dynamic(() => import("./components/Hero"));
+const MarqueeTicker = dynamic(() => import("./components/MarqueeTicker"));
+const OurServices = dynamic(() => import("./components/OurServices"));
+const Industries = dynamic(() => import("./components/Industries"));
+const OurProcess = dynamic(() => import("./components/OurProcess"));
+const CtaBanner = dynamic(() => import("./components/CtaBanner"));
 
 export default function Home() {
   return (

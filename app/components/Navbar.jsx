@@ -180,8 +180,9 @@ const Navbar = () => {
                     <Image
                       src={logo}
                       alt="Wasi Dev Solutions"
+                     width={100}
+                     height={100}
                      
-                      fill
                       className="object-contain object-left"
                     />
                   </div>
