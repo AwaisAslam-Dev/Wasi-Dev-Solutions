@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import logo from "@/public/logo.png";
+import logo from "@/public/logo2.png";
 import Image from "next/image";
 import {
   FaHome,
@@ -82,7 +82,7 @@ const Navbar = () => {
             {/* Logo */}
             <Link href="/" className="shrink-0 group">
               <div className="flex items-center cursor-pointer transition-transform duration-300 hover:scale-105">
-                <div className="relative overflow-hidden rounded-xl w-32 h-10 xs:w-36 xs:h-12 sm:w-44 sm:h-14 md:w-52 md:h-16 lg:w-60 lg:h-18">
+                <div className="relative overflow-hidden rounded-xl w-40 h-14 sm:w-52 sm:h-16 md:w-64 md:h-20 lg:w-72 lg:h-24">
                   <Image
                     src={logo}
                     alt="Wasi Dev Solutions"
@@ -175,13 +175,12 @@ const Navbar = () => {
               />
 
               <div className="px-5 pt-5 pb-6 space-y-4">
-                <div className="flex items-center justify-between mb-1">
+                <div className="flex items-center justify-between mb-3">
                   <div className="relative w-28 h-9 sm:w-64 sm:h-11">
                     <Image
                       src={logo}
                       alt="Wasi Dev Solutions"
-                      width={500}
-      height={500}
+                     
                       fill
                       className="object-contain object-left"
                     />
@@ -249,9 +248,7 @@ const Navbar = () => {
                   </button>
                 </Link>
 
-                <p className="text-center text-[#B6BCC8]/40 text-xs">
-                  Tap outside to close
-                </p>
+               
               </div>
             </div>
           </div>

@@ -200,13 +200,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-1.5 cursor-pointer fade-in-delayed">
-        <span className="text-[10px] uppercase tracking-widest text-[#67D2FF]/70 font-medium">Scroll</span>
-        <div className="w-5 h-8 border border-[#67D2FF]/40 rounded-full flex justify-center hover:border-[#67D2FF] transition-colors duration-300 animate-scroll-bounce">
-          <div className="w-1 h-2 bg-[#67D2FF] rounded-full mt-1.5 animate-scroll-dot" />
-        </div>
-      </div>
+     
     </section>
   );
 };
